@@ -1,0 +1,170 @@
+html, body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    height: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+ul {
+    display: flex;
+    list-style: none;
+    margin-left: auto;
+}
+
+li {
+    margin: 10px;
+}
+
+.header, .intro, .footer {
+    background-color: #1F2937;
+    margin: 0px;
+}
+.header {
+    display: flex;
+    align-items: center;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.header-img {
+    width: 75px;
+    height: 75px;
+    border: 0;
+    
+}
+.footer {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: auto;
+    padding: 20px;
+}
+
+p {
+    margin: 0px;
+}
+
+.intro-text{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.intro {
+    display: flex;
+    padding: 150px;
+    align-items: center;
+}
+
+.intro-lower-text {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+button {
+    background-color: #3882f6;
+    width: 100px;
+    font-weight: bold;
+    height: 25px;
+    border-radius: 5px;
+    border-width: 0;
+}
+.info-main-text {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+.intro-image {
+    width: 500px;
+    height: 300px;
+    border: 0;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+.four-images {
+    display: flex;
+    justify-content: space-around;
+}
+.images {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px;   
+    flex-wrap: wrap;
+    width: 150px;
+    text-align: center;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    border: 5px solid #3882f6;
+    border-radius: 16px;
+}
+.intro-image {
+    width: 500px;
+}
+
+.quotes {
+    display: flex;
+    justify-content: center;
+    background-color: #e5e7eb;
+    padding: 50px
+}
+.quotes-container {
+    width: 500px;
+    display:flex;
+    flex-direction: column;
+}
+.quotes-text {
+    text-align: end;
+}
+
+.quotes-main-text {
+    font-weight: 0;
+}
+
+.sign-up {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.sign-up-text {
+    color: white;
+}
+.big-text {
+    font-weight: bold;
+}
+
+.small-text {
+    font-size: small;
+}
+.sign-up-main {
+    background-color: #3882f6   ;
+    width: 100vh;
+    height: 75px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 5px;
+}
+.sign-up-button {
+    border-width: 2px;
+    border-color: white;
+}
+
